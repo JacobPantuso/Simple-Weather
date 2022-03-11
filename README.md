@@ -10,3 +10,6 @@ A more complex weather app that displays detailed forecast information with resp
   </div>
 </div>
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/Mui8iWc.png)  |  ![](https://i.imgur.com/6ZStnDJ.png)
