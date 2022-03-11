@@ -3,4 +3,4 @@ A more complex weather app that displays detailed forecast information with resp
 
 Welcome Screen             |  Forecast View
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/Mui8iWc.png)  |  ![](https://i.imgur.com/6ZStnDJ.png)
+![](https://i.imgur.com/Mui8iWc.png)  |  ![](https://i.imgur.com/DeEC0VY.png)
