@@ -13,6 +13,10 @@ struct WelcomeView: View {
     
     var body: some View {
         VStack {
+            Image(systemName: "location.fill")
+                .resizable()
+                .frame(width: 150, height: 150)
+                .aspectRatio(contentMode: .fit)
             VStack(spacing: 20) {
                 Text("Welcome to the Weather App")
                     .bold().font(.title)

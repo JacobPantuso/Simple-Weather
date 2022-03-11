@@ -54,7 +54,7 @@ struct WeatherView: View {
                         Spacer()
                         
                         .frame(width: 150, alignment: .leading)
-                        Text(weather.main.feelsLike.roundDouble() + "°")
+                        Text(weather.main.temp.roundDouble() + "°")
                             .font(.system(size:100))
                             .fontWeight(.bold)
                             .padding()
@@ -93,7 +93,7 @@ struct WeatherView: View {
                     HStack {
                         WeatherRow(logo: "arrow.down", name: "Min temp", value: weather.main.tempMin.roundDouble() + "°")
                         Spacer()
-                        WeatherRow(logo: "arrow.up", name: "Max temp", value: weather.main.tempMin.roundDouble() + "°")
+                        WeatherRow(logo: "arrow.up", name: "Max temp", value: weather.main.tempMax.roundDouble() + "°")
                     }
                     HStack {
                         WeatherRow(logo: "wind", name: "Wind speed", value: weather.wind.speed.roundDouble() + "m/s")
